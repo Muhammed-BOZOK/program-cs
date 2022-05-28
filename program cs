@@ -1,0 +1,27 @@
+using System;
+
+namespace ConsoleApp3
+{
+    class Program
+    {
+        public class BM
+        {
+            public int OgrenciSayisi { get; set; }
+           
+            public string Labaratuvar { get; set; }
+            public int DersSayisi { get; set; }
+        }
+
+        public class TÖ
+        {
+            public int OgrenciSayisi { get; set; }
+          
+            public int DersSayisi { get; set; }
+        }
+        static void Main(string[] args)
+        {
+            BM bm = new BM() {  };
+            TÖ tö = new TÖ() { };
+        }
+    }
+}
